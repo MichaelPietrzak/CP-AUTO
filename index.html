@@ -5,39 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="https://github.com/MichaelPietrzak">
     <title>CP-AUTO</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Roboto|Roboto+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+        <i class="fa fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+        <ul class="side-nav">
+            <li class="sidebar-nav-item">
+                <a class="" href="#page-top">HOME</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="" href="#autos">AUTOS</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="" href="#impressum">IMPRESSUM</a>
+            </li>
+        </ul>
+    </nav>
 
-    <header>
-        <div class="wrap">
-
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Autos</a></li>
-                    <li><a href="#">Impressum</a></li>
-                </ul>
-            </nav>
-
-            <div class="content"></div>
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1">CEZARY PIETROWICZ</h1>
+            <h3 class="mb-5">
+                <p>AUTOHANDEL</p>
+            </h3>
         </div>
     </header>
 
-    <div class="main">
-        <div class="wrap">
-            <!-- content and sidebar are swapped. They can be made to show in the order above with CSS -->
-            <div class="content"></div>
-            <div class="sidebar"></div>
+    <!-- Autos-->
+    <section class="content-section bg-light" id="autos">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                  <a class="btn btn-dark btn-xl" href="#">AUTO KAUFEN</a>  
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <footer>
-        <div class="wrap">
-            <div class="sidebar"></div>
-            <div class="content"></div>
+    <!-- Impressum -->
+    <section class="content-section" id="impressum">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">FOTOS PRIVAT?</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
+        <br/>
+        <small>
+            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
+        </small>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm">
+                    CP-AUTO Cezary Pietrowicz 
+                </div>
+                <div class="col-sm">
+                    uber uns
+                </div>
+                <div class="col-sm">
+                    &copy; Copyright CP-AUTO 
+                </div>
+            </div>
+        </div>
+        <div class="footer-logo py-4">
+            <img src="images/ideeas.png">
         </div>
     </footer>
-
+      
+      
 </body>
 </html>

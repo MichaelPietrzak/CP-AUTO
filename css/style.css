@@ -1,0 +1,41 @@
+footer .container-fluid {
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
+
+.footer-logo {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #000; }
+
+body, html {
+  height: 100%;
+  width: 100%; }
+
+.content-section {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem; }
+
+.content-section-heading h2 {
+  font-size: 3rem; }
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+h1,
+h2,
+h3 {
+  font-weight: 700; }
+
+.map {
+  height: 28rem; }
+
+@media (max-width: 992px) {
+  .map {
+    height: 75%; } }
+.map iframe {
+  pointer-events: none; }
+
+.btn-xl {
+  padding: 1.25rem 2.5rem; }
+
+/*# sourceMappingURL=style.css.map */
