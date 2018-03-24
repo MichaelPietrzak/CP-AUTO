@@ -12,27 +12,42 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
+
     <!-- Navigation -->
-    <a class="menu-toggle rounded" href="#">
-        <i class="fa fa-bars"></i>
-    </a>
-    <nav id="sidebar-wrapper">
-        <ul class="side-nav">
-            <li class="sidebar-nav-item">
-                <a class="" href="#page-top">HOME</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="" href="#autos">AUTOS</a>
-            </li>
-            <li class="sidebar-nav-item">
-                <a class="" href="#impressum">IMPRESSUM</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="container-one">
+        <div class="button_container" id="toggle">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div> 
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">AUTOS</a></li>
+                <li><a href="#">IMPRESSUM</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <!-- Header -->
     <header class="masthead d-flex">
-        <div class="container text-center my-auto">
+        <div class="container-fluid text-center my-auto">
+                <!-- Language Choice-->
+                <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+                        <label class="btn btn-secondary">
+                          <input type="radio" name="options" id="option1" autocomplete="off" checked> DE
+                        </label>
+                        <label class="btn btn-secondary active">
+                          <input type="radio" name="options" id="option2" autocomplete="off"> PL
+                        </label>
+                </div>
+                <div class="logo-img">
+                <img src="images/Line.png" alt="CP-AUTO" id="line1">
+                <img src="images/cp-auto-logo2-01.png" alt="CP-AUTO" id="logo">
+                <img src="images/Line.png" alt="CP-AUTO" id="line2">
+            </div>
             <h1 class="mb-1">CEZARY PIETROWICZ</h1>
             <h3 class="mb-5">
                 <p>AUTOHANDEL</p>
@@ -51,8 +66,8 @@
         </div>
     </section>
 
-    <!-- Impressum -->
-    <section class="content-section" id="impressum">
+    <!-- Fotos -->
+    <section class="content-section" id="fotos">
         <div class="container">
             <div class="content-section-heading text-center">
                 <h3 class="text-secondary mb-0">FOTOS PRIVAT?</h3>
@@ -89,6 +104,8 @@
         </div>
     </footer>
       
-      
+    <!-- JS Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
