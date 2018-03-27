@@ -26,13 +26,13 @@ h2,
 h3 {
   font-weight: 700; }
 
-.map {
+#map {
   height: 28rem; }
 
 @media (max-width: 992px) {
-  .map {
+  #map {
     height: 75%; } }
-.map iframe {
+#map iframe {
   pointer-events: none; }
 
 .btn-xl {
@@ -74,6 +74,7 @@ h3 {
   margin: 0 auto;
   font-family: 'Roboto', sans-serif; }
   .container-one a {
+    text-transform: uppercase;
     display: inline-block;
     position: relative;
     text-align: center;

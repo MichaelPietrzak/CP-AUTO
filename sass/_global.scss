@@ -17,7 +17,6 @@ body, html {
         font-size: 1rem;
         text-transform: uppercase;
     }
-
 }
 
 //Typography
@@ -29,17 +28,17 @@ h3 {
 
 // Map
 
-.map {
+#map {
     height: 28rem; 
 }
 
 @media(max-width: 992px) {
-    .map {
+    #map {
         height: 75%;
     }
 }
 
-.map iframe {
+#map iframe {
     pointer-events: none; 
 }
 

@@ -23,9 +23,10 @@
         <div class="overlay" id="overlay">
             <nav class="overlay-menu">
               <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="#">AUTOS</a></li>
-                <li><a href="#">IMPRESSUM</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Autos</a></li>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Fotos Privat</a></li>
                 </ul>
             </nav>
         </div>
@@ -76,13 +77,7 @@
     </section>
 
     <!-- Map -->
-    <section id="contact" class="map">
-        <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-        <br/>
-        <small>
-            <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-        </small>
-    </section>
+    <div id="map"></div> 
 
     <!-- Footer -->
     <footer class="footer text-center">
@@ -92,7 +87,7 @@
                     CP-AUTO Cezary Pietrowicz 
                 </div>
                 <div class="col-sm">
-                    uber uns
+                    Kontakt
                 </div>
                 <div class="col-sm">
                     &copy; Copyright CP-AUTO 
@@ -102,9 +97,11 @@
         <div class="footer-logo py-4">
             <img src="images/ideeas.png">
         </div>
-    </footer>
-      
-    <!-- JS Scripts-->
+ </footer>
+
+    <!-- JS Scripts -->
+    <script src="./js/map.js"></script> 
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNRpPMKijs6WNL0Buh8STQXwBSAtNuVMU&callback=initMap"async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./js/main.js"></script>
 </body>
