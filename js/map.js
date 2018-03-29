@@ -239,13 +239,30 @@ function initMap() {
 
     // Create a map object, and include the MapTypeId to add
     // to the map type control.
+
+    var myLatLng = {lat: 48.390189, lng: 10.027451};
+    
+    var contentString = '<p>CP-AUTO <br> Max-Eyth-Straße 39G <br> 89231 Neu-Ulm<p>';
+
+    var infowindow = new google.maps.InfoWindow({
+      content: contentString
+    });
+
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: 51.110777, lng: 17.032755}, // DOWOLNY ADRES GEOGRAFICZNY POBRANY Z GOOGLE MAPS!! 
-      zoom: 14,
+      center: myLatLng, // ADRES FIRMY 
+      zoom: 15,
       mapTypeControlOptions: {
         mapTypeIds: ['styled_map']
       }
     });
+      var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'CP-AUTO'
+      });
+      marker.addListener('click', function() {
+        infowindow.open(map, marker);
+      });
 
     //Associate the styled map with the MapTypeId and set it to display.
     map.mapTypes.set('styled_map', styledMapType);
