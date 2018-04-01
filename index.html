@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Roboto|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="Site">
+<main class="Site-content"> 
 
-    <!-- Navigation -->
-    <div class="container-one">
+   <!-- Navigation -->
+   <div class="container">
         <div class="button_container" id="toggle">
             <span class="top"></span>
             <span class="middle"></span>
@@ -24,87 +25,145 @@
             <nav class="overlay-menu">
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Autos</a></li>
+                <li><a href="#autos">Autos</a></li>
                 <li><a href="kontakt_impressum.html">Impressum</a></li>
                 <li><a href="fotos_privat.html">Fotos Privat</a></li>
+                <li><img src="images/ideeas.png"></li>
                 </ul>
             </nav>
         </div>
     </div>
-
+<!--
     <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
             <label class="btn btn-secondary">
-              <input type="radio" name="options" id="option1" autocomplete="off" checked> DE
+              <input type="radio" name="options" id="option1" autocomplete="off" checked>DE
             </label>
             <label class="btn btn-secondary active">
-              <input type="radio" name="options" id="option2" autocomplete="off"> PL
+              <input type="radio" name="options" id="option2" autocomplete="off">PL
             </label>
     </div>
-    
-    <div class="jumbotron text-center">
-            <div>
-                    <img src="images/Line.png" alt="CP-AUTO" id="line1">
-                    <img src="images/cp-auto_autohandel_neu-ulm.svg" alt="CP-AUTO" id="logo">
-                    <img src="images/Line.png" alt="CP-AUTO" id="line2">
-                <h2>CEZARY PIETROWICZ</h2>
-                <p>AUTOHANDEL</p>
-            </div>
-            <div class="arrow bounce">
-	                <a href="#autos">
-	                    <img src="images/cp-auto_autohandel_auto-kaufen-01.svg">
-	                </a>
-	        </div>
-    </div>
-    
-        <!-- Autos-->
-    <section class="content-section" id="autos">
-            <div class="container text-center">
-                <div class="row">
-                    <div class="col-lg-10 mx-auto">
-                        <img src="images/cp-auto_autohandel_neu-ulm_auto-kaufen.svg">
-                      <a class="btn btn-dark btn-xl" href="https://home.mobile.de/CPAUTONEUULM#ses">AUTO KAUFEN</a>  
-                    </div>
+-->
+    <div class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-fluid d-block py-4 my-1" src="images/Line.svg">
+                    <img class="d-block img-fluid mx-auto" src="images/cp-auto_autohandel_neu-ulm.svg">
+                    <img class="img-fluid d-block py-4 my-1" src="images/Line.svg"> 
                 </div>
             </div>
-        </section>
-
-        <div class="container-fluid">
-            <h2>ÜBER UNS</h2>
+        </div>
+    </div>
+              <div class="py-0">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <h1 class="text-uppercase text-center m-0 p-0">Cezary Pietrowicz</h1>
+                      <p class="text-center text-uppercase m-0 p-0">AUTOHANDEL
+                        <br> </p>
                 <div class="row">
-                  <div class="col-sm-8">
-                      <div class="thumbnail">
-                    <img src="images/_wsb_460x322_Auta+plac+JPEG.png">
-                    </div>
+                    <div class="col-md-12 my-5">
+                    <p class="text-center ">89231 Neu-Ulm</p>
+                </div>
+                </div>   
+                </div>
                   </div>
-                  <div class="col-sm-4">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+              <div class="my-5 py-4">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-12 my-4 py-4">
+                      <img class="img-fluid d-block mx-auto arrow bounce" src="images/car-garage.png" height="70" width="50"> </div>
                   </div>
-                  <a class="btn btn-xl" href="https://home.mobile.de/CPAUTONEUULM#ses">AUTO KAUFEN</a>  
                 </div>
               </div>
     
-        <!-- Map -->
-    <div id="map"></div> 
-
-        <!-- Footer -->
-    <footer class="footer text-center">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm">
-                        CP-AUTO Cezary Pietrowicz 
-                    </div>
-                    <div class="col-sm">
-                        Kontakt
-                    </div>
-                    <div class="col-sm">
-                        &copy; Copyright CP-AUTO 
+    <!-- Auto Kaufen -->
+    <div class="bg-dark">
+    <div class="d-flex align-items-center my-5 py-5">
+         <div class="container my-5">
+            <div class="row my-5">
+                <div class="mx-auto text-center col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                      <img class="img-fluid d-block mx-auto" src="images/cp-auto_autohandel_neu-ulm_auto-kaufen.svg" width="663" height="255">
+        <div class="container py-3">
+            <div class="row my-5">
+                <div class="col-md-12 py-5">
+                    <a href="https://home.mobile.de/CPAUTONEUULM#ses" class="pull-right mr-5 btn btn-outline-dark text-uppercase"><p>AUTO KAUF<span class="letter-color">E</span>N</p></a>
+                        </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-logo py-4">
-                <img src="images/ideeas.png">
+        </div>
+    </div>
+    </div>
+    <!-- über uns Section -->
+     <div class="py-5">
+         <div class="container">
+            <div class="row">
+                 <div class="col-md-5">
+                     <h3>üb<span class="letter-color">e</span>r uns&nbsp;</h3>
+                </div>
+             </div>
+        </div>
+    </div>
+
+    <div class="py-5">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col-md-5">
+                    <img class="img-fluid d-block my-4" src="images/_wsb_460x322_Auta+plac+JPEG.png" alt="Generic placeholder image">
+                </div>
+                    <div class="col-md-1"></div>
+                <div class="col-md-6 text-justify">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+                    </p>
+                </div>
             </div>
-     </footer>
+        </div>
+
+    <div class="py-5">
+        <div class="row justify-content-end mr-4">
+            <div class="col-md-4">
+                <a href="#" class="pull-right mr-5 btn btn-outline-dark text-uppercase"><p>FOTOS P<span class="letter-color">R</span>IVAT</p></a>
+            </div>
+        </div>
+    </div>
+</main>
+
+    <!--Google map -->
+<div id="map"></div>
+
+    <!-- Contact -->
+    <div class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>CP-AUTO Cezary Pietrowicz</p>
+                </div>
+                <div class="col-md-4">
+                <a class="contact"href="#"><p>kontakt</p></a>
+                </div>
+                <div class="col-md-4">
+                    <p>© Copyright CP-AUTO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+         <!--Logo -->
+        <div class="footer-logo py-4 text-center">
+                <img src="images/ideeas.png">
+        </div>
+    </footer>
+  
 
     <!-- JS Scripts -->
     <script src="./js/map.js"></script> 

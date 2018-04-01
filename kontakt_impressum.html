@@ -8,13 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Roboto|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Lato:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="Site">
+<main class="Site-content"> 
 
-    <!-- Navigation -->
-    <div class="container-one">
+   <!-- Navigation -->
+   <div class="container">
         <div class="button_container" id="toggle">
             <span class="top"></span>
             <span class="middle"></span>
@@ -24,81 +25,51 @@
             <nav class="overlay-menu">
               <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Autos</a></li>
+                <li><a href="#autos">Autos</a></li>
                 <li><a href="kontakt_impressum.html">Impressum</a></li>
                 <li><a href="fotos_privat.html">Fotos Privat</a></li>
+                <li><img src="images/ideeas.png"></li>
                 </ul>
             </nav>
         </div>
     </div>
-
-    <div class="jumbotron text-center">
-            <div>
-                    <img src="images/Line.png" alt="CP-AUTO" id="line1">
-                    <img src="images/cp-auto_autohandel_neu-ulm.svg" alt="CP-AUTO" id="logo">
-                    <img src="images/Line.png" alt="CP-AUTO" id="line2">
-                <h2>CEZARY PIETROWICZ</h2>
-                <p>AUTOHANDEL</p>
-            </div>
+<!--
+    <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+            <label class="btn btn-secondary">
+              <input type="radio" name="options" id="option1" autocomplete="off" checked>DE
+            </label>
+            <label class="btn btn-secondary active">
+              <input type="radio" name="options" id="option2" autocomplete="off">PL
+            </label>
     </div>
-        
-        <section id="contact" class="main-section text-center">
-            <div class="heading-contact">
-                <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="section-heading">
-                        <h2>lorem ipsum</h2>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="container">
+-->
+    <div class="py-5">
+        <div class="container">
             <div class="row">
-                <div class="col-lg-2 col-lg-offset-5">
+                <div class="col-md-12">
+                    <img class="img-fluid d-block py-4 my-1" src="images/Line.svg">
+                    <img class="d-block img-fluid mx-auto" src="images/cp-auto_autohandel_neu-ulm.svg">
+                    <img class="img-fluid d-block py-4 my-1" src="images/Line.svg"> 
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-4">
-                        <div class="inner">
-                            <h5>lorem ipsum</h5>
-                            <p class="subtitle">lorem ipsum</p>
-                            <div><img src="img/pilkarzyki.jpg" alt="" class="img-responsive" /></div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                        <div class="inner">
-                            <h5>lorem ipsum</h5>
-                            <p class="subtitle">lorem ipsum</p>
-                            <div><img src="img/puchar.jpg" alt="" class="img-responsive" /></div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                        <div class="inner">
-                            <h5>lorem ipsum</h5>
-                            <p class="subtitle">lorem ipsum</p>
-                            <div><img src="img/fruits.jpg" alt="" class="img-responsive" /></div>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-            </div>		
-            </div>
-        </section>
+        </div>
+    </div>
   
-    
+  
+
+
+   
+
+   
+
     <!-- Footer -->
-    <footer class="footer text-center">
-            <div class="footer-logo py-4">
+    <footer>
+         <!--Logo -->
+        <div class="footer-logo py-4 text-center">
                 <img src="images/ideeas.png">
-            </div>
-     </footer>
+        </div>
+    </footer>
+  
 
     <!-- JS Scripts -->
     <script src="./js/map.js"></script> 

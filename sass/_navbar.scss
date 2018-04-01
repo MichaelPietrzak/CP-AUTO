@@ -1,29 +1,6 @@
+
 $button-height: 22px;
 $button-width: 30px;
-
-.container-one {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  top: 40%;
-  left: 0;
-  margin:  0 auto;
-  font-family: 'Roboto', sans-serif;
-  
-  a {
-    text-transform: uppercase;
-    display: inline-block;
-    position: relative;
-    text-align: center;
-    color: $orange;
-    text-decoration: none;
-    font-size: 40px;
-    overflow: hidden;
-    top: 5px;
-    
-  }
-}
 
 .button_container {
   position: fixed;
@@ -42,21 +19,21 @@ $button-width: 30px;
   &.active {
     .top {
       transform: translateY(11px) translateX(0) rotate(45deg);
-      background: $white;
+      background: $body-bg;
     }
     .middle {
       opacity: 0;
-      background: $white;
+      background: $body-bg;
     }
     
     .bottom {
       transform: translateY(-11px) translateX(0) rotate(-45deg);
-      background: $white;
+      background: $body-bg;
     }
   }
   
   span {
-  background: $orange;
+  background: $secondary-color;
   border: none;
   height: 5px;
   width: 100%;
@@ -114,10 +91,13 @@ $button-width: 30px;
     height: 70%;
     top: 60%;
     transform: translateY(-50%);
-    font-size: 50px;
-    font-family: 'Roboto', serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: normal; 
+    font-size: 64px; 
+    line-height: 77px;
     text-align: center;
+    text-transform: uppercase; 
   }
   ul {
     list-style: none;
@@ -137,7 +117,7 @@ $button-width: 30px;
       a {
         display: block;
         position: relative;
-        color: $white;
+        color: $body-bg;
         text-decoration: none;
         overflow: hidden;
         
@@ -155,7 +135,7 @@ $button-width: 30px;
           width: 0%;
           transform: translateX(-50%);
           height: 3px;
-          background: $orange;
+          background: $secondary-color;
           transition: .35s;
         }
       }
@@ -174,23 +154,23 @@ $button-width: 30px;
   }
 }
 
-.btn {
-    border: 1px solid $black;
+.language-btn {
+    border: 1px solid $primary-color;
     border-radius: 0;
-    color: $black;
-    background-color: $white;
+    color: $primary-color;
+    background-color: $body-bg;
     margin: 1px;
 }
 
-.btn:hover, .btn:focus, .btn:active, .btn.active, .open > .dropdown-toggle.btn {
-    color: $black;
-    border: 1px solid $black;
-    background-color: $white;
+.language-btn:hover, .language-btn:focus, .language-btn:active, .btn.active, .open > .dropdown-toggle.language-btn{
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    background-color: $body-bg;
 }
-.btn:active, .btn.active {
-	color: $black !important;
+.language-btn:active, .language-btn.active {
+	color: $primary-color !important;
     border: 0px;
-    background-color: $white !important;
+    background-color: $body-bg !important;
 }
 
 .arrow {
@@ -198,7 +178,7 @@ $button-width: 30px;
   margin: 8% 0;
   width: 70px; 
   height: 70px; 
-  margin-top: 250px;
+  margin-top: 0px;
   padding: 7px 16px;
 }
 .bounce {
