@@ -131,4 +131,15 @@ html {
 }
 */
 
-
+.btn {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #000;
+    font-size: 16px;
+    background: #fff;
+    padding: 10px 70px 0px 70px;
+    border: solid #000 1px;
+    text-decoration: none;
+}

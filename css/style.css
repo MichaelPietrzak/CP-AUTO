@@ -15,18 +15,6 @@ h3 {
 .letter-color {
   color: #f4982c; }
 
-.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #000;
-  font-size: 16px;
-  background: #fff;
-  padding: 10px 70px 0px 70px;
-  border: solid #000 1px;
-  text-decoration: none; }
-
 @font-face {
   font-family: 'Lato';
   src: url("Lato-Bold.woff2") format("woff2"), url("Lato-Bold.woff") format("woff");
@@ -42,25 +30,6 @@ h3 {
   src: url("Lato-Regular.woff2") format("woff2"), url("Lato-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
-/*
-footer {
-    .container-fluid {
-        padding-top: 3rem; 
-        padding-bottom: 3rem; 
-    }
-}
-
-.footer-logo {
-    padding-top: 5rem; 
-    padding-bottom: 5rem; 
-    background-color: $primary-color; 
-}
-
-.contact:link, .contact:visited, .contact:hover, .contact:active {
-    text-decoration: none;
-    color: black;
-}
-*/
 .footer-logo {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -206,6 +175,18 @@ html {
     }
 }
 */
+.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px 70px 0px 70px;
+  border: solid #000 1px;
+  text-decoration: none; }
+
 .button_container {
   position: fixed;
   top: 5%;
@@ -354,5 +335,40 @@ html {
     transform: translateY(-30px); }
   60% {
     transform: translateY(-15px); } }
+.photo-effect {
+  position: relative; }
+
+.photo-effect img {
+  width: 100%;
+  vertical-align: top; }
+
+.photo-effect:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s; }
+
+.photo-effect:hover:before {
+  opacity: 0; }
+
+.photo-effect p {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  height: 50%;
+  font-size: 20px;
+  color: #fff; }
+
+.photo-effect:hover p {
+  opacity: 0; }
 
 /*# sourceMappingURL=style.css.map */
