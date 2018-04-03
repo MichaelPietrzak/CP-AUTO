@@ -154,7 +154,20 @@ $button-width: 30px;
   }
 }
 
-.language-btn {
+#language.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px 70px 0px 70px;
+  border: solid #000 1px;
+  text-decoration: none;
+}
+
+.btn-language {
     border: 1px solid $primary-color;
     border-radius: 0;
     color: $primary-color;
@@ -162,12 +175,12 @@ $button-width: 30px;
     margin: 1px;
 }
 
-.language-btn:hover, .language-btn:focus, .language-btn:active, .btn.active, .open > .dropdown-toggle.language-btn{
+.btn-language:hover, .btn-language:focus, .btn-language:active, .btn.active, .open > .dropdown-toggle.btn-language{
     color: $primary-color;
     border: 1px solid $primary-color;
     background-color: $body-bg;
 }
-.language-btn:active, .language-btn.active {
+.btn-language:active, .btn-language.active {
 	color: $primary-color !important;
     border: 0px;
     background-color: $body-bg !important;

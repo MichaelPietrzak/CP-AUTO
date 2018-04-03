@@ -175,7 +175,7 @@ html {
     }
 }
 */
-.btn {
+.kaufen a.btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
@@ -298,19 +298,31 @@ html {
   100% {
     opacity: 1;
     left: 0; } }
-.language-btn {
+#language.btn {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: Arial;
+  color: #000;
+  font-size: 16px;
+  background: #fff;
+  padding: 10px 70px 0px 70px;
+  border: solid #000 1px;
+  text-decoration: none; }
+
+.btn-language {
   border: 1px solid #000;
   border-radius: 0;
   color: #000;
   background-color: #fff;
   margin: 1px; }
 
-.language-btn:hover, .language-btn:focus, .language-btn:active, .btn.active, .open > .dropdown-toggle.language-btn {
+.btn-language:hover, .btn-language:focus, .btn-language:active, .btn.active, .open > .dropdown-toggle.btn-language {
   color: #000;
   border: 1px solid #000;
   background-color: #fff; }
 
-.language-btn:active, .language-btn.active {
+.btn-language:active, .btn-language.active {
   color: #000 !important;
   border: 0px;
   background-color: #fff !important; }
