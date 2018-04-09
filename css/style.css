@@ -190,7 +190,8 @@ p {
   background: #fff;
   padding: 10px 70px 0px 70px;
   border: solid #000 1px;
-  text-decoration: none; }
+  text-decoration: none;
+  outline: 0; }
 
 .btn-language {
   border: 1px solid #000;
