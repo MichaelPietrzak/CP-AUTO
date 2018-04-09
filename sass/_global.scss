@@ -65,6 +65,7 @@ body {
  a.btn:focus {
     background-color: $body-bg-second;
     opacity: 10%;
+    box-shadow: none;
 }
 
 .btn-fotos a.btn {
