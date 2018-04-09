@@ -1,11 +1,12 @@
+// Hamburger orange Menu
 
 $button-height: 22px;
 $button-width: 30px;
 
 .button_container {
-  position: fixed;
-  top: 5%;
-  left: 2%;
+  position: absolute;
+  top: 14%;
+  left: 6%;
   height: $button-height;
   width: $button-width;
   cursor: pointer;
@@ -35,7 +36,7 @@ $button-width: 30px;
   span {
   background: $secondary-color;
   border: none;
-  height: 5px;
+  height: 4px;
   width: 100%;
   position: absolute;
   top: 0;
@@ -154,6 +155,8 @@ $button-width: 30px;
   }
 }
 
+// Language btn-group
+
 #language.btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -186,10 +189,12 @@ $button-width: 30px;
     background-color: $body-bg !important;
 }
 
+// bouncing car (header) 
+
 .arrow {
   text-align: center;
   margin: 8% 0;
-  width: 70px; 
+  width: auto; 
   height: 70px; 
   margin-top: 0px;
   padding: 7px 16px;
