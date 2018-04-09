@@ -16,8 +16,8 @@ body {
 
 .col-md-12.logo {
     padding: 25px;
-    border-bottom: 6px solid $primary-color; 
-    border-top: 6px solid $primary-color; 
+    //border-bottom: 6px solid $primary-color; 
+    //border-top: 6px solid $primary-color; 
     width: 96%;
 }
 
@@ -65,7 +65,6 @@ body {
  a.btn:focus {
     background-color: $body-bg-second;
     opacity: 10%;
-    box-shadow: none;
 }
 
 .btn-fotos a.btn {
@@ -121,4 +120,3 @@ a {
 	   -moz-transform: skew(-63deg);
 	     -o-transform: skew(-63deg);
 }
-
