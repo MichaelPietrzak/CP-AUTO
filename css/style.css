@@ -239,6 +239,7 @@ p {
 
 .photo-effect:before {
   content: '';
+  cursor: pointer;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -283,6 +284,9 @@ body {
 .col-md-12.logo img {
   width: 60%;
   max-width: 800px; }
+
+.contact-center-left {
+  margin-left: 20px; }
 
 .btn-group {
   top: 14%;
