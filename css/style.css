@@ -1,42 +1,42 @@
+/*
 p {
-  font-family: Lato;
-  font-weight: 300;
-  color: #000;
-  font-size: 1rem;
-  line-height: 1.2rem; }
+    font-family: $base-font-family;
+    font-weight: $light;
+    color: $primary-color;
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+}
 
 h3 {
-  font-family: Lato;
-  font-weight: 300;
-  color: #000;
-  font-size: 36px;
-  line-height: 58px; }
-
+    font-family: $base-font-family;
+    font-weight: $light;
+    color: $primary-color;
+    font-size: 36px; 
+    line-height: 58px; 
+}
+*/
 .letter-color {
   color: #f4982c; }
 
-/*
 h1 {
-    font-family: $base-font-family;
-    font-size: 48px; // 48px - 4.8rem
-  }
+  font-family: Lato;
+  font-weight: bold;
+  font-size: 48px; }
 
 h2 {
-    font-family: $base-font-family;
-    font-size: 36px; // 36px - 3.6rem
-  }
+  font-family: Lato;
+  font-size: 36px; }
 
 h3 {
-    font-family: $base-font-family;
-    font-size: 24px; // 24px - 2rem
-  }
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 36px; }
 
 p {
-    font-family: $base-font-family;
-    font-size: 18px; // 18px - 1.8rem
-}
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 18px; }
 
-*/
 @font-face {
   font-family: 'Lato';
   src: url("Lato-Bold.woff2") format("woff2"), url("Lato-Bold.woff") format("woff");
@@ -137,7 +137,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 64px;
+    font-size: 36px;
     line-height: 77px;
     text-align: center;
     text-transform: uppercase; }
@@ -150,7 +150,7 @@ p {
     height: 100%; }
     .overlay ul li {
       display: block;
-      height: 18%;
+      height: 15%;
       min-height: 50px;
       position: relative;
       opacity: 0; }
@@ -180,6 +180,11 @@ p {
   100% {
     opacity: 1;
     left: 0; } }
+.btn-group a {
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 16px; }
+
 #language.btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -268,7 +273,9 @@ p {
   opacity: 0; }
 
 html {
-  height: 100%; }
+  height: 100%;
+  font-size: 10px;
+  font-family: Lato; }
 
 body {
   height: 100%;
@@ -283,7 +290,11 @@ body {
 
 .col-md-12.logo img {
   width: 60%;
-  max-width: 800px; }
+  max-width: 800px;
+  padding-top: 30px; }
+
+.logo-space {
+  padding-top: 30px; }
 
 .contact-center-left {
   margin-left: 20px; }
@@ -293,7 +304,7 @@ body {
   right: 2%; }
 
 .bg-color {
-  background-color: #f5f5f5; }
+  background-color: #f4982c; }
 
 /*
 .head {
@@ -311,13 +322,14 @@ body {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-family: Arial;
-  color: #000;
   font-size: 16px;
-  background: #fff;
-  padding: 10px 70px 0px 70px;
-  border: solid #000 1px;
+  background: transparent;
+  padding: 10px 80px 0px 80px;
+  border: solid #fff 1px;
   text-decoration: none; }
+
+.kaufen a.btn p {
+  color: #fff; }
 
 a.btn:focus {
   background-color: #f5f5f5;
@@ -368,5 +380,11 @@ a {
 
 /* MEDIA QUERIES
 /* --------------------------------------- */
+@media (min-width: 768px) {
+  html {
+    font-size: 7px; } }
+@media (min-width: 1200px) {
+  html {
+    font-size: 8px; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -95,7 +95,7 @@ $button-width: 30px;
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     font-style: normal; 
-    font-size: 64px; 
+    font-size: 36px; 
     line-height: 77px;
     text-align: center;
     text-transform: uppercase; 
@@ -110,7 +110,7 @@ $button-width: 30px;
     
     li {
       display: block;
-      height: 18%;
+      height: 15%;
       min-height: 50px;
       position: relative;
       opacity: 0;
@@ -156,7 +156,11 @@ $button-width: 30px;
 }
 
 // Language btn-group
-
+.btn-group a {
+  font-family: $base-font-family; 
+  font-weight: $light;
+  font-size: 16px;  
+}
 #language.btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;

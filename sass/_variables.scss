@@ -21,9 +21,9 @@ $bold: bold;
 
 $base-font-family: Lato; 
 $base-font-weight: $regular;
-$base-font-size: 1rem; 
-$base-line-height: 1.2rem; 
-
+$base-font-size: 10px; 
+//$base-line-height: 1.2rem; 
+/*
 p {
     font-family: $base-font-family;
     font-weight: $light;
@@ -39,15 +39,16 @@ h3 {
     font-size: 36px; 
     line-height: 58px; 
 }
-
+*/
 
 .letter-color {
     color: $secondary-color;
 }
 
-/*
+
 h1 {
     font-family: $base-font-family;
+    font-weight: bold; 
     font-size: 48px; // 48px - 4.8rem
   }
 
@@ -58,12 +59,13 @@ h2 {
 
 h3 {
     font-family: $base-font-family;
-    font-size: 24px; // 24px - 2rem
+    font-weight: $light;
+    font-size: 36px; // 24px - 2rem
   }
 
 p {
     font-family: $base-font-family;
+    font-weight: $light;
     font-size: 18px; // 18px - 1.8rem
 }
 
-*/
