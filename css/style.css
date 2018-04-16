@@ -21,21 +21,21 @@ h3 {
 h1 {
   font-family: Lato;
   font-weight: bold;
-  font-size: 48px; }
+  font-size: 4.8rem; }
 
 h2 {
   font-family: Lato;
-  font-size: 36px; }
+  font-size: 3.6rem; }
 
 h3 {
   font-family: Lato;
   font-weight: 300;
-  font-size: 36px; }
+  font-size: 3.6rem; }
 
 p {
   font-family: Lato;
   font-weight: 300;
-  font-size: 18px; }
+  font-size: 1.8rem; }
 
 @font-face {
   font-family: 'Lato';
@@ -137,7 +137,7 @@ p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     font-style: normal;
-    font-size: 36px;
+    font-size: 3.6rem;
     line-height: 77px;
     text-align: center;
     text-transform: uppercase; }
@@ -183,7 +183,7 @@ p {
 .btn-group a {
   font-family: Lato;
   font-weight: 300;
-  font-size: 16px; }
+  font-size: 1.6rem; }
 
 #language.btn {
   -webkit-border-radius: 0;
@@ -191,7 +191,7 @@ p {
   border-radius: 0px;
   font-family: Arial;
   color: #000;
-  font-size: 16px;
+  font-size: 1.6rem;
   background: #fff;
   padding: 10px 70px 0px 70px;
   border: solid #000 1px;
@@ -266,7 +266,6 @@ p {
   padding: 2em;
   width: 100%;
   height: 50%;
-  font-size: 20px;
   color: #fff; }
 
 .photo-effect:hover p {
@@ -291,10 +290,14 @@ body {
 .col-md-12.logo img {
   width: 60%;
   max-width: 800px;
+  min-width: 100px;
   padding-top: 30px; }
 
 .logo-space {
   padding-top: 30px; }
+
+.logo-space-title {
+  font-size: 3.6rem; }
 
 .contact-center-left {
   margin-left: 20px; }
@@ -322,7 +325,7 @@ body {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0px;
-  font-size: 16px;
+  font-size: 1.6rem;
   background: transparent;
   padding: 10px 80px 0px 80px;
   border: solid #fff 1px;
@@ -341,7 +344,7 @@ a.btn:focus {
   border-radius: 0px;
   font-family: Arial;
   color: #000;
-  font-size: 16px;
+  font-size: 1.6rem;
   background: #fff;
   padding: 10px 70px 0px 70px;
   border: solid #000 1px;
@@ -380,11 +383,17 @@ a {
 
 /* MEDIA QUERIES
 /* --------------------------------------- */
-@media (min-width: 768px) {
+@media all and (max-width: 1200px) {
   html {
-    font-size: 7px; } }
-@media (min-width: 1200px) {
+    font-size: 8px !important; }
+
+  .small-car-icons {
+    text-align: center !important; } }
+@media all and (max-width: 767px) {
   html {
-    font-size: 8px; } }
+    font-size: 6px !important; }
+
+  .col-md-12.logo img {
+    width: 95%; } }
 
 /*# sourceMappingURL=style.css.map */
