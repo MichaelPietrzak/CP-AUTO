@@ -21,11 +21,11 @@ h3 {
 h1 {
   font-family: Lato;
   font-weight: bold;
-  font-size: 4.8rem; }
+  font-size: 3.6rem; }
 
 h2 {
   font-family: Lato;
-  font-size: 3.6rem; }
+  font-size: 2.8rem; }
 
 h3 {
   font-family: Lato;
@@ -35,7 +35,7 @@ h3 {
 p {
   font-family: Lato;
   font-weight: 300;
-  font-size: 1.8rem; }
+  font-size: 1.7rem; }
 
 @font-face {
   font-family: 'Lato';
@@ -67,7 +67,7 @@ p {
 
 .contact:link, .contact:visited, .contact:hover, .contact:active {
   text-decoration: none;
-  color: black; }
+  color: #f4982c; }
 
 .button_container {
   position: absolute;
@@ -106,7 +106,7 @@ p {
 
 .overlay {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   z-index: 2;
   top: 0;
   left: 0;
@@ -117,7 +117,7 @@ p {
   transition: opacity .35s, visibility .35s, height .35s;
   overflow: hidden; }
   .overlay.open {
-    opacity: .9;
+    opacity: .95;
     visibility: visible;
     height: 100%; }
     .overlay.open li {
@@ -182,8 +182,8 @@ p {
     left: 0; } }
 .btn-group a {
   font-family: Lato;
-  font-weight: 300;
-  font-size: 1.6rem; }
+  font-weight: normal;
+  font-size: 1.3rem; }
 
 #language.btn {
   -webkit-border-radius: 0;
@@ -204,6 +204,11 @@ p {
   color: #000;
   background-color: #fff;
   margin: 1px; }
+
+.btn-group .btn {
+  padding: .8rem 1.2rem; }
+.btn-group .btn.focus, .btn-group .btn:focus {
+  box-shadow: none; }
 
 .btn-language:hover, .btn-language:focus, .btn-language:active, .btn.active, .open > .dropdown-toggle.btn-language {
   color: #000;
@@ -280,34 +285,49 @@ body {
   height: 100%;
   width: 100%; }
 
+section {
+  min-height: 100vh;
+  overflow-y: hidden; }
+
+.container-lg {
+  max-width: 1400px; }
+
 #map {
-  height: 39rem; }
+  height: 85vh; }
 
 .col-md-12.logo {
   padding: 25px;
   width: 96%; }
 
 .col-md-12.logo img {
-  width: 60%;
+  width: 80%;
   max-width: 800px;
   min-width: 100px;
   padding-top: 30px; }
+
+.logo {
+  width: 60%;
+  max-width: 1100px;
+  margin-top: 100px; }
 
 .logo-space {
   padding-top: 30px; }
 
 .logo-space-title {
-  font-size: 3.6rem; }
+  font-size: 2.8rem; }
 
 .contact-center-left {
   margin-left: 20px; }
 
 .btn-group {
-  top: 14%;
+  top: 2%;
   right: 2%; }
 
 .bg-color {
   background-color: #f4982c; }
+
+.cars-wrapper {
+  padding-top: 10%; }
 
 /*
 .head {
@@ -387,13 +407,31 @@ a {
   html {
     font-size: 8px !important; }
 
+  .logo {
+    width: 85%; }
+
   .small-car-icons {
-    text-align: center !important; } }
+    text-align: center !important; }
+
+  #auto-kaufen {
+    padding-top: 10rem !important; } }
 @media all and (max-width: 767px) {
   html {
     font-size: 6px !important; }
 
+  .cars-wrapper {
+    margin-top: 0px;
+    width: 60%; }
+
+  .logo {
+    width: 95%; }
+
   .col-md-12.logo img {
     width: 95%; } }
+@media all and (max-width: 367px) {
+  .kaufen a.btn {
+    width: 95%;
+    margin: auto;
+    padding: 6px 10% 0px 10%; } }
 
 /*# sourceMappingURL=style.css.map */

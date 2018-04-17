@@ -23,8 +23,14 @@
     html {
         font-size: 8px !important;
     }
+    .logo {
+        width: 85%;
+    }
     .small-car-icons {
         text-align: center !important;
+    }
+    #auto-kaufen {
+        padding-top: 10rem !important;
     }
 }
 
@@ -32,7 +38,24 @@
     html {
         font-size: 6px !important;
     }
+    .cars-wrapper{
+        margin-top: 0px;
+        width: 60%;
+    }
+    .logo {
+        width: 95%;
+    }
     .col-md-12.logo img {
         width: 95%;
+    }
+}
+
+@media all and (max-width: 367px) {
+    .kaufen {
+        a.btn {
+            width: 95%;
+            margin: auto;
+            padding: 6px 10% 0px 10%;
+        }
     }
 }
