@@ -161,28 +161,9 @@ $button-width: 30px;
   font-family: $base-font-family; 
   font-weight: normal;
   font-size: 1.3rem;
-}
-#language.btn {
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #000;
-  font-size: 1.6rem;
-  background: #fff;
-  padding: 10px 70px 0px 70px;
-  border: solid #000 1px;
-  text-decoration: none;
-  outline: 0; 
+  color: $primary-color;
 }
 
-.btn-language {
-    border: 1px solid $primary-color;
-    border-radius: 0;
-    color: $primary-color;
-    background-color: $body-bg;
-    margin: 1px;
-}
 .btn-group{
   .btn{
     padding: .8rem 1.2rem;
@@ -190,18 +171,15 @@ $button-width: 30px;
   .btn.focus, .btn:focus{
     box-shadow: none;
   }
-}
-
-.btn-language:hover, .btn-language:focus, .btn-language:active, .btn.active, .open > .dropdown-toggle.btn-language{
-    color: $primary-color;
+  .btn.active {
     border: 1px solid $primary-color;
+    border-radius: 0;
+    color: $primary-color; 
     background-color: $body-bg;
-}
-
-.btn-language:active, .btn-language.active {
-	color: $primary-color !important;
-    border: 0px;
-    background-color: $body-bg !important;
+    margin: 1px;
+    text-decoration: none;
+    pointer-events: none;
+  }
 }
 
 // bouncing car (header) 
@@ -231,4 +209,5 @@ $button-width: 30px;
     transform: translateY(-15px);
   }
 }
+
 

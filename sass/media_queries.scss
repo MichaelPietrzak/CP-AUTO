@@ -48,6 +48,41 @@
     .col-md-12.logo img {
         width: 95%;
     }
+
+    .mobile-center {
+        text-align: center;
+        margin: 0px;
+    }
+    h1,p {
+        text-align: center;
+        margin: 0px; 
+    }
+    .mobile-pull {
+       padding-left: 50px; 
+    }
+
+    .inner {
+        border-bottom: 1px solid $primary-color; 
+        border-top: 1px solid $primary-color;
+        width: 80px;
+        height: auto;
+        -webkit-transform: skew(57deg);
+           -moz-transform: skew(63deg);
+             -o-transform: skew(63deg);
+    }
+    
+    .content {
+        -webkit-transform: skew(-57deg);
+           -moz-transform: skew(-63deg);
+             -o-transform: skew(-63deg);
+    }
+    .kaufen {
+        a.btn {
+            width: 60%;
+            margin: auto;
+            padding: 10px 10% 10px 10%;
+        }
+    }
 }
 
 @media all and (max-width: 367px) {
@@ -57,5 +92,14 @@
             margin: auto;
             padding: 6px 10% 0px 10%;
         }
+    }
+    
+    .mobile-center {
+        text-align: center;
+        margin: 0px;
+    }
+    h1,p {
+        text-align: center; 
+        margin: 0px; 
     }
 }

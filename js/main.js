@@ -3,9 +3,11 @@ $('#toggle').click(function() {
     $('#overlay').toggleClass('open');
    });
 
-   $('.btn-group').on('click', '.btn', function() {
-    $(this).addClass('active').siblings().removeClass('active');
-  });
+  
+   $(".btn-group > .btn").click(function(){
+    $(".btn-group > .btn").removeClass("active");
+    $(this).addClass("active");
+});
 
   $('a[href^="#"]').on('click', function (event) {
     var target = $(this.getAttribute('href'));

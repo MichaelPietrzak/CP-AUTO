@@ -55,7 +55,6 @@ section{
     margin-left: 20px;
 }
 
-
 .btn-group {
     top: 2%;
     right: 2%;
@@ -92,16 +91,20 @@ section{
     padding: 10px 80px 0px 80px;
     border: solid $body-bg 1px;
     text-decoration: none;
-}
-
-.kaufen a.btn p {
     color: $body-bg;
 }
 
+.kaufen a.btn:hover {
+    color: $primary-color;
+    background-color: $body-bg;
+}
+
+/*
  a.btn:focus {
     background-color: $body-bg-second;
     opacity: 10%;
 }
+*/
 
 .btn-fotos a.btn {
     -webkit-border-radius: 0;
