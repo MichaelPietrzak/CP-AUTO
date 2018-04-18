@@ -440,7 +440,10 @@ a {
   .kaufen a.btn {
     width: 60%;
     margin: auto;
-    padding: 10px 10% 10px 10%; } }
+    padding: 10px 10% 10px 10%; }
+
+  .btn-fotos a.btn {
+    padding: 10px 20% 10px 20%; } }
 @media all and (max-width: 367px) {
   .kaufen a.btn {
     width: 95%;
@@ -453,6 +456,23 @@ a {
 
   h1, p {
     text-align: center;
-    margin: 0px; } }
+    margin: 0px; }
+
+  .mobile-pull {
+    padding-left: 50px; }
+
+  .inner {
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+    width: 80px;
+    height: auto;
+    -webkit-transform: skew(57deg);
+    -moz-transform: skew(63deg);
+    -o-transform: skew(63deg); }
+
+  .content {
+    -webkit-transform: skew(-57deg);
+    -moz-transform: skew(-63deg);
+    -o-transform: skew(-63deg); } }
 
 /*# sourceMappingURL=style.css.map */
