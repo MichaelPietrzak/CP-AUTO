@@ -305,14 +305,9 @@ section {
 .bg-color {
   background-color: #f4982c; }
 
-.cars-wrapper {
-  padding-top: 10%; }
+.uber-uns-color {
+  background-color: #000; }
 
-/*
-.head {
-    height: 100vh;
-}
-*/
 .kaufen {
   margin: auto;
   text-align: center; }
@@ -326,7 +321,9 @@ section {
   border-radius: 0px;
   font-size: 1.6rem;
   background: transparent;
-  padding: 10px 80px 0px 80px;
+  width: 85%;
+  height: 40px;
+  padding: 5px 0 0px 0;
   border: solid #fff 1px;
   text-decoration: none;
   color: #fff; }
@@ -335,12 +332,9 @@ section {
   color: #000;
   background-color: #fff; }
 
-/*
- a.btn:focus {
-    background-color: $body-bg-second;
-    opacity: 10%;
-}
-*/
+.btn-fotos p {
+  color: #fff; }
+
 .btn-fotos a.btn {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -348,14 +342,16 @@ section {
   font-family: Arial;
   color: #000;
   font-size: 1.6rem;
-  background: #fff;
-  padding: 10px 70px 0px 70px;
-  border: solid #000 1px;
+  background: transparent;
+  width: 50%;
+  height: 50px;
+  padding: 10px 0 0px 0;
+  border: solid #fff 1px;
   text-decoration: none; }
-
-.btn-fotos div a.btn:focus {
-  background-color: #f5f5f5;
-  opacity: 10%; }
+  .btn-fotos a.btn:hover {
+    background-color: #fff; }
+    .btn-fotos a.btn:hover p {
+      color: #000; }
 
 a {
   text-decoration: none;
@@ -371,8 +367,8 @@ a {
     outline: none !important; }
 
 .inner {
-  border-bottom: 1px solid #000;
-  border-top: 1px solid #000;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
   width: 150px;
   height: auto;
   -webkit-transform: skew(63deg);
@@ -383,6 +379,8 @@ a {
   -webkit-transform: skew(-63deg);
   -moz-transform: skew(-63deg);
   -o-transform: skew(-63deg); }
+  .content h3 {
+    color: #fff; }
 
 /* MEDIA QUERIES
 /* --------------------------------------- */
@@ -401,10 +399,6 @@ a {
 @media all and (max-width: 767px) {
   html {
     font-size: 6px !important; }
-
-  .cars-wrapper {
-    margin-top: 0px;
-    width: 60%; }
 
   .logo {
     width: 95%; }
