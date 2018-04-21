@@ -1,8 +1,20 @@
+
+/* Hamburger Menu Option */ 
+
 $('#toggle').click(function() {
     $(this).toggleClass('active');
     $('#overlay').toggleClass('open');
    });
 
+    // Close after clicking on a li
+ 
+ $('#overlay li').on('click', function(){
+  $("#overlay").hide();
+  $("#toggle").removeClass("active");
+});
+
+
+/* ********************************** */
   
    $(".btn-group > .btn").click(function(){
     $(".btn-group > .btn").removeClass("active");
