@@ -8,6 +8,7 @@ body {
 //    font-size: 10px; 
     height: 100%;
     width: 100%;
+   
 }
 
 section{
@@ -83,9 +84,9 @@ section{
     // font-size: 16px;
     font-size: 1.6rem;
     background: transparent;
-    width: 85%;
-    height: 40px;
-    padding: 5px 0 0 0;
+    width: 75%;
+    height: 35px;
+    padding: 3px 0 0 0;
     border: solid $body-bg 1px;
     text-decoration: none;
     color: $body-bg;
