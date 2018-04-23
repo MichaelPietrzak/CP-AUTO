@@ -13,6 +13,24 @@
     crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
+  <style>
+    body {
+      content: 'content that needs a delay';
+      opacity: 0;
+      animation: 2s fadeIn;
+      animation-fill-mode: forwards;
+      transition: opacity 1s;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
 </head>
 
 <body class="Site">
@@ -46,8 +64,8 @@
                     </li>
                     <div class="mobile-only d-sm-none">
                       <div class="mobile-line btn-group">
-                          <a href="#" class="btn active">DE</a>
-                          <a href="#" class="btn">PL</a>
+                        <a href="#" class="btn active">DE</a>
+                        <a href="#" class="btn">PL</a>
                       </div>
                     </div>
                     <li></li>
@@ -59,10 +77,10 @@
               </div>
             </div>
             <div class="col-md-6">
-                <div class="btn-group d-flex flex-row justify-content-end">
-                    <a href="#" class="btn active">DE</a>
-                    <a href="#" class="btn">PL</a>
-                </div>
+              <div class="btn-group d-flex flex-row justify-content-end">
+                <a href="#" class="btn active">DE</a>
+                <a href="#" class="btn">PL</a>
+              </div>
             </div>
           </div>
         </div>
@@ -97,7 +115,7 @@
       </div>
     </section>
 
-    <section id="uber-uns"class="uber-uns-color">
+    <section id="uber-uns" class="uber-uns-color">
       <!-- über uns Section -->
       <div class="py-0 my-5">
         <div class="container container-lg my5 py5">
@@ -105,7 +123,9 @@
             <div class=".col-md-3.ml-md-auto text-center inner">
               <div class="content" style="margin-top: 10px;
               margin-bottom: 12px;">
-                <h3>üb<span class="letter-color">e</span>r uns</h3></div>
+                <h3>üb
+                  <span class="letter-color">e</span>r uns</h3>
+              </div>
             </div>
           </div>
         </div>
@@ -137,7 +157,9 @@
               </p>
               <div class="mx-auto text-center py-5">
                 <a href="oldtimer.html" class="btn text-uppercase">
-                  <p>ÜB<span class="letter-color">E</span>RPRÜF<span class="letter-color">E</span>N</p>
+                  <p>ÜB
+                    <span class="letter-color">E</span>RPRÜF
+                    <span class="letter-color">E</span>N</p>
                 </a>
               </div>
             </div>
@@ -146,62 +168,88 @@
       </div>
     </section>
 
-   <!-- Auto Kaufen -->
+    <!-- Auto Kaufen -->
     <section id="auto-kaufen" class="bg-color d-flex justify-content-center">
       <div class="align-self-center align-self-center">
-      <div class="container mobile-center">
-        <div class="row text-center mw-100 py-3">
-          <div class="col-md-3">
-            <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-02.svg">
-            <p class="text-center my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</p>
-          </div>
-          <div class="col-md-3 py-5 my-4">
-            <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-04.svg">
-            <p class="text-center py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</p>
-          </div>
-          <div class="col-md-3 py-5 my-4">
-            <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-01.svg">
-            <p class="text-center py-2 my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</p>
-          </div>
-          <div class="col-md-3 py-5 my-4">
-            <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-03.svg">
-            <p class="text-center py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem.</p>
-          </div>
-        </div>
-        
-        <div class="row text-center mw-100">
-          <div class="col-md-3">
-            <div class="py-5 my-4 kaufen">
-              <a href="#" class="btn text-uppercase">
-                <p>AUTOS KAUFEN</p>
-              </a>
+        <div class="container mobile-center">
+          <div class="row text-center mw-100 py-3">
+            <div class="col-md-3">
+              <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-02.svg">
+              <p class="text-center my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia
+                in, mi. Cras vel lorem.</p>
+              <div class="py-5 my-4 kaufen .d-block d-sm-block d-lg-none d-xl-none d-md-none">
+                <a href="#" class="btn text-uppercase">
+                  <p>AUTOS KAUFEN</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 py-5 my-4">
+              <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-04.svg">
+              <p class="text-center py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia
+                in, mi. Cras vel lorem.</p>
+              <div class="py-5 my-4 kaufen .d-block d-sm-block d-lg-none d-xl-none d-md-none">
+                <a href="#" class="btn text-uppercase">
+                  <p>AUTOS KAUFEN</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 py-5 my-4">
+              <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-01.svg">
+              <p class="text-center py-2 my-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia
+                in, mi. Cras vel lorem.</p>
+              <div class="py-5 my-4 kaufen .d-block d-xs-block d-sm-block d-lg-none d-xl-none d-md-none">
+                <a href="oldtimer.html" class="btn text-uppercase">
+                  <p>OLDTIMER</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 py-5 my-4">
+              <img class="img-fluid d-block mx-auto py-5" src="images/cp-auto_autohandel-03.svg">
+              <p class="text-center py-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia
+                in, mi. Cras vel lorem.</p>
+              <div class="py-5 my-4 kaufen .d-block d-sm-block d-lg-none d-xl-none d-md-none">
+                <a href="#" class="btn text-uppercase">
+                  <p>MARKETING ONLINE</p>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="py-5 my-4 kaufen">
-              <a href="#" class="btn text-uppercase">
-                <p>AUTOS KAUFEN</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="py-5 my-4 kaufen">
-              <a href="oldtimer.html" class="btn text-uppercase">
-                <p>OLDTIMER</p>
-              </a>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="py-5 my-4 kaufen">
-              <a href="#" class="btn text-uppercase">
-                <p>MARKETING ONLINE</p>
-              </a>
-            </div>
-          </div>
-        </div>
 
+
+          <div class="row text-center mw-100">
+            <div class="col-md-3 d-none d-sm-none d-lg-block d-xl-block d-md-block">
+              <div class="py-5 my-4 kaufen">
+                <a href="#" class="btn text-uppercase" style="width: 100%; line-height: 25px;">
+                  <p>AUTOS KAUFEN</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 d-none d-sm-none d-lg-block d-xl-block d-md-block">
+              <div class="py-5 my-4 kaufen">
+                <a href="#" class="btn text-uppercase" style="width: 100%; line-height: 25px;">
+                  <p>AUTOS KAUFEN</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 d-none d-sm-none d-lg-block d-xl-block d-md-block">
+              <div class="py-5 my-4 kaufen">
+                <a href="oldtimer.html" class="btn text-uppercase" style="width: 100%; line-height: 25px;">
+                  <p>OLDTIMER</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-3 d-none d-sm-none d-lg-block d-xl-block d-md-block">
+              <div class="py-5 my-4 kaufen">
+                <a href="#" class="btn text-uppercase" style="width: 100%; line-height: 25px;">
+                  <p>MARKETING ONLINE</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
       </div>
-    </div>
     </section>
 
     <!--Google map -->
