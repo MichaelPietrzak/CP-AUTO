@@ -327,7 +327,8 @@ section {
   padding: 3px 0 0 0;
   border: solid #fff 1px;
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+  line-height: 25px; }
 
 .kaufen a.btn:hover {
   color: #000;
@@ -396,7 +397,15 @@ a {
 
   #auto-kaufen {
     padding-top: 10rem !important; } }
-@media all and (max-width: 767px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .btn-fotos a.btn {
+    width: 50%;
+    height: 28px;
+    padding: 5px 0 0 0; } }
+.mobile-pull {
+  padding-left: 50px; }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
   html {
     font-size: 6px !important; }
 
@@ -420,7 +429,7 @@ a {
   .inner {
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    width: 80px;
+    width: 90px;
     height: auto;
     -webkit-transform: skew(57deg);
     -moz-transform: skew(63deg);
@@ -432,13 +441,13 @@ a {
     -o-transform: skew(-63deg); }
 
   .kaufen a.btn {
-    width: 35%;
-    height: 24px;
+    width: 75%;
+    height: 25px;
     margin: auto;
-    padding: 3px 0 0 0; }
+    padding: 0; }
 
   .btn-fotos a.btn {
-    width: 50%;
+    width: 45%;
     height: 28px;
     padding: 5px 0 0 0; } }
 .container-lg {
@@ -474,16 +483,50 @@ a {
     text-decoration: none;
     pointer-events: none; }
 
-@media all and (max-width: 367px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .kaufen a.btn {
-    width: 70%;
-    height: 24px;
+    width: 30%;
+    height: 25px;
     margin: auto;
-    padding: 6px 0 0px 0; }
+    padding: 0; }
+
+  .btn-fotos a.btn {
+    width: 38%;
+    height: 28px;
+    padding: 5px 0 0 0; }
+
+  .inner {
+    border-bottom: 1px solid #fff;
+    border-top: 1px solid #fff;
+    width: 120px;
+    height: auto;
+    -webkit-transform: skew(57deg);
+    -moz-transform: skew(63deg);
+    -o-transform: skew(63deg); }
+
+  .content {
+    -webkit-transform: skew(-57deg);
+    -moz-transform: skew(-63deg);
+    -o-transform: skew(-63deg); }
+
+  .mobile-pull {
+    padding-left: 50px; }
 
   .mobile-center {
+    padding: 0 5% 0 5%;
     text-align: center;
-    margin: 0px; }
+    margin: 0px; } }
+@media (max-width: 575.98px) {
+  .kaufen a.btn {
+    width: 45%;
+    height: 25px;
+    margin: auto;
+    padding: 0; }
+
+  .btn-fotos a.btn {
+    width: 55%;
+    height: 35px;
+    padding: 5px 0 0 0; }
 
   h1, p {
     text-align: center;
@@ -492,10 +535,15 @@ a {
   .mobile-pull {
     padding-left: 50px; }
 
+  .mobile-center {
+    padding: 0 5% 0 5%;
+    text-align: center;
+    margin: 0px; }
+
   .inner {
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    width: 80px;
+    width: 130px;
     height: auto;
     -webkit-transform: skew(57deg);
     -moz-transform: skew(63deg);
