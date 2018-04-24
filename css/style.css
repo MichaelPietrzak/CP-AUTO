@@ -546,7 +546,7 @@ body.modal-open {
   .inner {
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
-    width: 130px;
+    width: 113px;
     height: auto;
     -webkit-transform: skew(57deg);
     -moz-transform: skew(63deg);
