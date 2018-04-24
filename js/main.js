@@ -36,6 +36,7 @@ $('a[href^="#"]').on('click', function (event) {
   }
 });
 
+/*
 $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() >= $("#one").position().top) {
       $('#toggle > span').css('background', $("#one").attr("data-color"));
@@ -46,4 +47,4 @@ $(window).on("scroll touchmove", function() {
     }
   });
 
-  
+*/
