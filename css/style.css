@@ -444,7 +444,7 @@ a {
     width: 75%;
     height: 25px;
     margin: auto;
-    padding: 0; }
+    padding: 0 0 3px 0; }
 
   .btn-fotos a.btn {
     width: 45%;
@@ -488,7 +488,7 @@ a {
     width: 30%;
     height: 25px;
     margin: auto;
-    padding: 0; }
+    padding: 0 0 3px 0; }
 
   .btn-fotos a.btn {
     width: 38%;
@@ -521,7 +521,7 @@ a {
     width: 50%;
     height: 25px;
     margin: auto;
-    padding: 0; }
+    padding: 0 0 3px 0; }
 
   .btn-fotos a.btn {
     width: 55%;
