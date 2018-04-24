@@ -35,3 +35,15 @@ $('a[href^="#"]').on('click', function (event) {
     }, 1000);
   }
 });
+
+$(window).on("scroll touchmove", function() {
+    if ($(document).scrollTop() >= $("#one").position().top) {
+      $('#toggle > span').css('background', $("#one").attr("data-color"));
+    } 
+
+    if ($(document).scrollTop() >= $("#auto-kaufen").position().top) {
+      $('#toggle > span').css('background', $("#auto-kaufen").attr("data-color"));
+    }
+  });
+
+  

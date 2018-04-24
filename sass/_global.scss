@@ -165,3 +165,7 @@ a {
         color: $body-bg; 
     }
 }
+
+body.modal-open {
+    overflow: hidden;
+}
