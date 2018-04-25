@@ -386,6 +386,9 @@ a {
   .content h3 {
     color: #fff; }
 
+.box-size {
+  padding: 30px; }
+
 /* MEDIA QUERIES
 /* --------------------------------------- */
 @media all and (max-width: 1200px) {
@@ -462,7 +465,8 @@ a {
 
 .mobile-line {
   border-top: 2px solid #fff;
-  width: 90px; }
+  width: 100%;
+  padding-top: 30px; }
 
 .mobile-only .btn-group div a {
   font-family: Lato;
