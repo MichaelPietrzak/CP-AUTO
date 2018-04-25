@@ -44,9 +44,11 @@
     }
 
     .mobile-center {
+        padding: 0 4% 0 4%; 
         text-align: center;
-        margin: 0px;
+        margin: 0px; 
     }
+
     h1,p {
         text-align: center;
         margin: 0px; 
@@ -86,6 +88,10 @@
                 padding: 5px 0 0 0;
             }
         }
+    }
+
+    .text-just-mobile {
+        text-align: justify;
     }
 
     .container-lg{
@@ -151,6 +157,9 @@
         }
     }
 
+    .text-just-mobile {
+        text-align: justify;
+    }
 
     .inner {
         border-bottom: 1px solid $body-bg; 
@@ -173,14 +182,21 @@
     }
     
     .mobile-center {
-         padding: 0 5% 0 5%; 
+        padding: 0 4% 0 4%; 
         text-align: center;
         margin: 0px; 
     }
 
+    .just-mobile {
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: start; /* Safari 6.1+ */
+        display: flex;
+        justify-content: start;
+    }
 }
 
 @media (max-width: 575.98px) {
+   
     .kaufen {
         a.btn {
             width: 50%;
@@ -204,13 +220,20 @@
     }
     
     .mobile-pull {
-    padding-left: 50px; 
+    padding-left: 50px;
     }
 
     .mobile-center {
-        padding: 0 5% 0 5%; 
+        padding: 0 4% 0 4%; 
         text-align: center;
         margin: 0px; 
+    }
+
+    .just-mobile {
+        display: -webkit-flex; /* Safari */
+        -webkit-justify-content: start; /* Safari 6.1+ */
+        display: flex;
+        justify-content: start;
     }
 
     .inner {

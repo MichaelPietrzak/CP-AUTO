@@ -309,6 +309,9 @@ section {
 .uber-uns-color {
   background-color: #000; }
 
+.icons-text-size {
+  font-size: 1.5rem; }
+
 .kaufen {
   margin: auto;
   text-align: center; }
@@ -383,9 +386,6 @@ a {
   .content h3 {
     color: #fff; }
 
-body.modal-open {
-  overflow: hidden; }
-
 /* MEDIA QUERIES
 /* --------------------------------------- */
 @media all and (max-width: 1200px) {
@@ -419,6 +419,7 @@ body.modal-open {
     width: 95%; }
 
   .mobile-center {
+    padding: 0 4% 0 4%;
     text-align: center;
     margin: 0px; }
 
@@ -453,6 +454,9 @@ body.modal-open {
     width: 45%;
     height: 28px;
     padding: 5px 0 0 0; } }
+.text-just-mobile {
+  text-align: justify; }
+
 .container-lg {
   padding: 40px; }
 
@@ -498,6 +502,9 @@ body.modal-open {
     height: 28px;
     padding: 5px 0 0 0; }
 
+  .text-just-mobile {
+    text-align: justify; }
+
   .inner {
     border-bottom: 1px solid #fff;
     border-top: 1px solid #fff;
@@ -516,9 +523,17 @@ body.modal-open {
     padding-left: 50px; }
 
   .mobile-center {
-    padding: 0 5% 0 5%;
+    padding: 0 4% 0 4%;
     text-align: center;
-    margin: 0px; } }
+    margin: 0px; }
+
+  .just-mobile {
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-justify-content: start;
+    /* Safari 6.1+ */
+    display: flex;
+    justify-content: start; } }
 @media (max-width: 575.98px) {
   .kaufen a.btn {
     width: 50%;
@@ -539,9 +554,17 @@ body.modal-open {
     padding-left: 50px; }
 
   .mobile-center {
-    padding: 0 5% 0 5%;
+    padding: 0 4% 0 4%;
     text-align: center;
     margin: 0px; }
+
+  .just-mobile {
+    display: -webkit-flex;
+    /* Safari */
+    -webkit-justify-content: start;
+    /* Safari 6.1+ */
+    display: flex;
+    justify-content: start; }
 
   .inner {
     border-bottom: 1px solid #fff;

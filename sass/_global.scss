@@ -69,6 +69,10 @@ section{
     background-color: $primary-color;
 }
 
+.icons-text-size {
+    font-size: 1.5rem;
+}
+
 .kaufen {
     margin: auto; 
     text-align: center; 
@@ -164,8 +168,4 @@ a {
     h3 {
         color: $body-bg; 
     }
-}
-
-body.modal-open {
-    overflow: hidden;
 }
