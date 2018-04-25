@@ -387,7 +387,7 @@ a {
     color: #fff; }
 
 .box-size {
-  padding: 30px; }
+  padding: 32px; }
 
 /* MEDIA QUERIES
 /* --------------------------------------- */
@@ -545,7 +545,7 @@ a {
     justify-content: start; } }
 @media (max-width: 575.98px) {
   .kaufen a.btn {
-    width: 50%;
+    width: 60%;
     height: 25px;
     margin: auto;
     padding: 0 0 3px 0; }
@@ -554,6 +554,9 @@ a {
     width: 55%;
     height: 35px;
     padding: 5px 0 0 0; }
+
+  .text-just-mobile {
+    text-align: justify; }
 
   h1, p {
     text-align: center;
