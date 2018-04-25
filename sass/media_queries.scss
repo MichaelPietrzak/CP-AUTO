@@ -162,6 +162,12 @@
         text-align: justify;
     }
 
+    .mobile-line {
+        border-top: 2px solid $body-bg; 
+        width: 100%;
+        padding-top: 30px;
+    }
+
     .inner {
         border-bottom: 1px solid $body-bg; 
         border-top: 1px solid $body-bg;
@@ -228,6 +234,12 @@
         padding: 0 4% 0 4%; 
         text-align: center;
         margin: 0px; 
+    }
+
+    .mobile-line {
+        border-top: 2px solid $body-bg; 
+        width: 100%;
+        padding-top: 30px;
     }
 
     .just-mobile {
