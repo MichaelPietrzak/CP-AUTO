@@ -31,6 +31,33 @@
     padding-left: 50px; 
  }
 
+ .uber-uns-border-effect {
+    width: 130px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px;
+    &::after{
+      content: "";
+      height: 1px;
+      background: $body-bg;
+      display: block;
+      margin-right: -52%;
+      margin-left: 52%;
+      margin-top: 20px;
+      margin-bottom: -20px;
+    }
+    &::before{
+      content: "";
+      height: 1px;
+      background: $body-bg;
+      display: block;
+      margin-right: 35%;
+      margin-left: -35%;
+      margin-top: -20px;
+      margin-bottom: 20px;
+    }
+  }
+
 @media (min-width: 768px) and (max-width: 991.98px) {
     html {
         font-size: 6px !important;
@@ -57,21 +84,33 @@
        padding-left: 50px; 
     }
 
-    .inner {
-        border-bottom: 1px solid $body-bg; 
-        border-top: 1px solid $body-bg;
-        width: 90px;
-        height: auto;
-        -webkit-transform: skew(57deg);
-           -moz-transform: skew(63deg);
-             -o-transform: skew(63deg);
-    }
-    
-    .content {
-        -webkit-transform: skew(-57deg);
-           -moz-transform: skew(-63deg);
-             -o-transform: skew(-63deg);
-    }
+    .uber-uns-border-effect {
+        width: 120px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        &::after{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: -52%;
+          margin-left: 52%;
+          margin-top: 20px;
+          margin-bottom: -20px;
+        }
+        &::before{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: 35%;
+          margin-left: -35%;
+          margin-top: -20px;
+          margin-bottom: 20px;
+        }
+      }
+
     .kaufen {
         a.btn {
             width: 75%;
@@ -168,21 +207,32 @@
         padding-top: 30px;
     }
 
-    .inner {
-        border-bottom: 1px solid $body-bg; 
-        border-top: 1px solid $body-bg;
-        width: 113px;
-        height: auto;
-        -webkit-transform: skew(57deg);
-        -moz-transform: skew(63deg);
-            -o-transform: skew(63deg);
-    }
-
-    .content {
-        -webkit-transform: skew(-57deg);
-        -moz-transform: skew(-63deg);
-            -o-transform: skew(-63deg);
-    }
+    .uber-uns-border-effect {
+        width: 110px;
+        text-align: center;
+        margin: auto;
+        margin-top: 200px;
+        &::after{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: -52%;
+          margin-left: 52%;
+          margin-top: 20px;
+          margin-bottom: -20px;
+        }
+        &::before{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: 35%;
+          margin-left: -35%;
+          margin-top: -20px;
+          margin-bottom: 20px;
+        }
+      }
 
     .mobile-pull {
         padding-left: 50px; 
@@ -231,7 +281,7 @@
     }
     
     .mobile-pull {
-    padding-left: 50px;
+    padding-left: 80px;
     }
 
     .mobile-center {
@@ -253,19 +303,30 @@
         justify-content: start;
     }
 
-    .inner {
-        border-bottom: 1px solid $body-bg; 
-        border-top: 1px solid $body-bg;
-        width: 113px;
-        height: auto;
-        -webkit-transform: skew(57deg);
-        -moz-transform: skew(63deg);
-            -o-transform: skew(63deg);
+    .uber-uns-border-effect {
+        width: 108px;
+        text-align: start;
+        margin: auto;
+        margin-top: 200px;
+        &::after{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: -52%;
+          margin-left: 52%;
+          margin-top: 20px;
+          margin-bottom: -20px;
+        }
+        &::before{
+          content: "";
+          height: 1px;
+          background: $body-bg;
+          display: block;
+          margin-right: 35%;
+          margin-left: -35%;
+          margin-top: -20px;
+          margin-bottom: 20px;
+        }
+      }
     }
-
-    .content {
-        -webkit-transform: skew(-57deg);
-        -moz-transform: skew(-63deg);
-            -o-transform: skew(-63deg);
-    }
-}
