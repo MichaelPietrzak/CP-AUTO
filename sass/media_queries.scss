@@ -16,6 +16,7 @@
     }
 }
 
+
 @media (min-width: 992px) and (max-width: 1199.98px) { 
 
     .btn-fotos {
@@ -29,34 +30,7 @@
 
  .mobile-pull {
     padding-left: 50px; 
- }
-
- .uber-uns-border-effect {
-    width: 140px;
-    text-align: center;
-    margin: auto;
-    margin-top: 200px;
-    &::after{
-      content: "";
-      height: 1px;
-      background: $body-bg;
-      display: block;
-      margin-right: -52%;
-      margin-left: 52%;
-      margin-top: 20px;
-      margin-bottom: -20px;
-    }
-    &::before{
-      content: "";
-      height: 1px;
-      background: $body-bg;
-      display: block;
-      margin-right: 35%;
-      margin-left: -35%;
-      margin-top: -20px;
-      margin-bottom: 20px;
-    }
-  }
+ }uber
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     html {
@@ -85,7 +59,7 @@
     }
 
     .uber-uns-border-effect {
-        width: 120px;
+        width: 110px;
         text-align: center;
         margin: auto;
         margin-top: 200px;
