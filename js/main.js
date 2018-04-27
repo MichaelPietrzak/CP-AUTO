@@ -46,4 +46,3 @@ $(window).on("scroll touchmove", function() {
       $('#toggle > span').css('background', $("#auto-kaufen").attr("data-color"));
     }
   });
-

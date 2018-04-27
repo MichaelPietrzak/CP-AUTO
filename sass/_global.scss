@@ -112,7 +112,7 @@ section{
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0px;
-    color: #000;
+    color: $primary-color;
     font-size: 1.6rem;
     // font-size: 16px;
     background: transparent;
@@ -148,7 +148,6 @@ a {
   }
 }
 
-
 // Uber Uns border effect 
 
 .uber-uns-border-effect {
@@ -183,4 +182,8 @@ a {
 
 .box-size {
     padding: 32px;      
+}
+
+.mobile-pull {
+    padding-left: 50px; 
 }

@@ -1,35 +1,22 @@
+
 // Variables
+
 // Colors
 $body-bg: #fff;
 $body-bg-second: #f5f5f5;
 $primary-color: #000;
 $secondary-color: #f4982c;
+
 // Font weights
 $regular: normal;
 $light: 300;
 $bold: bold;
+
 // Base font
 $base-font-family: Lato;
 $base-font-weight: $regular;
 $base-font-size: 10px;
 //$base-line-height: 1.2rem; 
-/*
-p {
-    font-family: $base-font-family;
-    font-weight: $light;
-    color: $primary-color;
-    font-size: $base-font-size;
-    line-height: $base-line-height;
-}
-
-h3 {
-    font-family: $base-font-family;
-    font-weight: $light;
-    color: $primary-color;
-    font-size: 36px; 
-    line-height: 58px; 
-}
-*/
 
 .letter-color {
     color: $secondary-color;
@@ -37,7 +24,7 @@ h3 {
 
 h1 {
     font-family: $base-font-family;
-    font-weight: bold;
+    font-weight: $bold;
     font-size: 3.6rem; //48px; // 48px - 4.8rem
 }
 
