@@ -413,7 +413,31 @@ h3 {
     text-align: center !important; }
 
   #auto-kaufen {
-    padding-top: 10rem !important; } }
+    padding-top: 10rem !important; }
+
+  .uber-uns-border-effect {
+    width: 150px;
+    text-align: center;
+    margin: auto;
+    margin-top: 200px; }
+    .uber-uns-border-effect::after {
+      content: "";
+      height: 1px;
+      background: #fff;
+      display: block;
+      margin-right: -52%;
+      margin-left: 52%;
+      margin-top: 20px;
+      margin-bottom: -20px; }
+    .uber-uns-border-effect::before {
+      content: "";
+      height: 1px;
+      background: #fff;
+      display: block;
+      margin-right: 35%;
+      margin-left: -35%;
+      margin-top: -20px;
+      margin-bottom: 20px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .btn-fotos a.btn {
     width: 50%;
@@ -423,7 +447,7 @@ h3 {
   padding-left: 50px; }
 
 .uber-uns-border-effect {
-  width: 130px;
+  width: 140px;
   text-align: center;
   margin: auto;
   margin-top: 200px; }
