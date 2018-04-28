@@ -50,7 +50,7 @@ p {
 
 .contact:link, .contact:visited, .contact:hover, .contact:active {
   text-decoration: none;
-  color: #f4982c; }
+  color: #000; }
 
 .button_container {
   position: fixed;
@@ -514,7 +514,7 @@ h3 {
     padding: 5px 0 0 0; }
 
   .text-just-mobile {
-    text-align: justify; }
+    text-align: justify !important; }
 
   .mobile-line {
     border-top: 2px solid #fff;
@@ -573,7 +573,7 @@ h3 {
     padding: 5px 0 0 0; }
 
   .text-just-mobile {
-    text-align: justify; }
+    text-align: justify !important; }
 
   h1, p {
     text-align: center;
