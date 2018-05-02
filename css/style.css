@@ -54,8 +54,6 @@ p {
 
 .button_container {
   position: fixed;
-  top: 4%;
-  left: 4%;
   height: 22px;
   width: 30px;
   cursor: pointer;
@@ -65,13 +63,13 @@ p {
     opacity: 0.7; }
   .button_container.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #fff; }
+    background: #fff !important; }
   .button_container.active .middle {
     opacity: 0;
-    background: #fff; }
+    background: #fff !important; }
   .button_container.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #fff; }
+    background: #fff !important; }
   .button_container span {
     background: #f4982c;
     border: none;

@@ -3,10 +3,14 @@
 $button-height: 22px;
 $button-width: 30px;
 
+// .container-fluid {
+//   position: relative;
+// }
+
 .button_container {
   position: fixed;
-  top: 4%;
-  left: 4%;
+  // top: 3%;
+  // left: 3%;
   height: $button-height;
   width: $button-width;
   cursor: pointer;
@@ -25,16 +29,16 @@ $button-width: 30px;
   &.active {
     .top {
       transform: translateY(11px) translateX(0) rotate(45deg);
-      background: $body-bg;
+      background: $body-bg !important; 
     }
     .middle {
       opacity: 0;
-      background: $body-bg;
+      background: $body-bg !important;
     }
     
     .bottom {
       transform: translateY(-11px) translateX(0) rotate(-45deg);
-      background: $body-bg;
+      background: $body-bg !important;
     }
   }
   
