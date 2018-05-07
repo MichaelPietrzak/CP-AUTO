@@ -52,22 +52,35 @@ p {
   text-decoration: none;
   color: #000; }
 
+.author-logo {
+  width: 30px;
+  height: auto; }
+
 .button_container {
   position: fixed;
   height: 22px;
   width: 30px;
   cursor: pointer;
   z-index: 100;
+  -webkit-transition-transition: opacity .25s ease;
+  -moz-transition-transition: opacity .25s ease;
+  -o-transition-transition: opacity .25s ease;
   transition: opacity .25s ease; }
   .button_container:hover {
     opacity: 0.7; }
   .button_container.active .top {
+    -webkit-transition-transform: translateY(11px) translateX(0) rotate(45deg);
+    -moz-transition-transform: translateY(11px) translateX(0) rotate(45deg);
+    -o-transition-transform: translateY(11px) translateX(0) rotate(45deg);
     transform: translateY(11px) translateX(0) rotate(45deg);
     background: #fff !important; }
   .button_container.active .middle {
     opacity: 0;
     background: #fff !important; }
   .button_container.active .bottom {
+    -webkit-transition-transform: translateY(-11px) translateX(0) rotate(-45deg);
+    -moz-transition-transform: translateY(-11px) translateX(0) rotate(-45deg);
+    -o-transition-transform: translateY(-11px) translateX(0) rotate(-45deg);
     transform: translateY(-11px) translateX(0) rotate(-45deg);
     background: #fff !important; }
   .button_container span {
@@ -191,6 +204,7 @@ p {
 .bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
+  -o-transition-animation: bounce 2s infinite;
   animation: bounce 2s infinite; }
 
 @keyframes bounce {
@@ -281,8 +295,7 @@ section {
   margin-left: 20px; }
 
 .btn-group {
-  top: 2%;
-  right: 2%; }
+  top: 2%; }
 
 .bg-color {
   background-color: #f4982c; }
@@ -312,11 +325,19 @@ section {
   border: solid #fff 1px;
   text-decoration: none;
   color: #fff;
-  line-height: 25px; }
+  line-height: 25px;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s; }
 
 .kaufen a.btn:hover {
   color: #000;
-  background-color: #fff; }
+  background-color: #fff;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s; }
 
 .btn-fotos p {
   color: #fff; }
@@ -332,9 +353,17 @@ section {
   height: 50px;
   padding: 10px 0 0 0;
   border: solid #fff 1px;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition-duration: 0.7s;
+  -moz-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s; }
   .btn-fotos a.btn:hover {
-    background-color: #fff; }
+    background-color: #fff;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s; }
     .btn-fotos a.btn:hover p {
       color: #000; }
 

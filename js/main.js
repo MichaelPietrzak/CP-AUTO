@@ -36,6 +36,7 @@ $('a[href^="#"]').on('click', function (event) {
   }
 });
 
+// Menu Icon section scroll color 
 
 $(window).on("scroll touchmove", function() {
     if ($(document).scrollTop() >= $("#one").position().top) {
