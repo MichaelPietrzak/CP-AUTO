@@ -56,6 +56,10 @@ p {
   width: 30px;
   height: auto; }
 
+.nav-row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
 .button_container {
   position: fixed;
   height: 22px;
