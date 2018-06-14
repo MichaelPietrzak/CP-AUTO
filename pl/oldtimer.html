@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Duru+Sans|Lato:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body class="Site">
 <main class="Site-content"> 
@@ -28,19 +28,21 @@
                       <nav class="overlay-menu">
                           <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="https://home.mobile.de/CPAUTONEUULM#ses">Autos</a></li>
-                            <li><a href="kontakt_impressum.html">Impressum</a></li>
+                            <li><a href="https://home.mobile.de/CPAUTONEUULM#ses">SPRZEDAŻ</a></li>
+                            <li><a href="kontakt_impressum.html">KONTAKT</a></li>
                             <li><a href="oldtimer.html">Oldtimer</a></li>
                             <div class="mobile-only d-sm-none mt-5">
                                 <div class="mobile-line btn-group">
-                                    <a href="oldtimer.html" class="btn active">DE</a>
-                                    <a href="pl/oldtimer.html" class="btn">PL</a>
-                                    <a href="en/oldtimer.html" class="btn">EN</a>
+                                    <a href="../oldtimer.html" class="btn">DE</a>
+                                    <a href="oldtimer.html" class="btn active">PL</a>
+                                    <a href="../en/oldtimer.html" class="btn">EN</a>
                                 </div>
                               </div>
                               <li></li>
                               <div class="mb-5">
-                                <img class="author-logo" src="images/ee_ideeas_web_design-01.svg">
+                                  <a href="http://www.ideeas.pl/">
+                                    <img class="author-logo" src="../images/ee_ideeas_web_design-01.svg">
+                                </a>
                               </div>
                             </ul>
                       </nav>
@@ -48,9 +50,9 @@
           </div>
           <div class="col-md-6">
             <div class="btn-group d-flex flex-row justify-content-end">
-              <a href="oldtimer.html" class="btn active">DE</a>
-              <a href="pl/oldtimer.html" class="btn">PL</a>
-              <a href="en/oldtimer.html" class="btn">EN</a>
+              <a href="../oldtimer.html" class="btn">DE</a>
+              <a href="oldtimer.html" class="btn active">PL</a>
+              <a href="../en/oldtimer.html" class="btn">EN</a>
             </div>
           </div>
         </div>
@@ -95,6 +97,7 @@
           </div>
           <div class="col-md-4 col-sm-6 col-xs-12 p-0 photo-effect" onClick="return true">
             <img src="../images/Cp-Auto_Pick-up_Dodge.jpg" class="img-fluid">
+            <p>Dodge<br>Pick-Up</p>
           </div>
         </div>
       </div>
@@ -105,7 +108,9 @@
     <footer>
          <!--Logo -->
         <div class="footer-logo py-4 text-center">
-                <img class="author-logo" src="images/ee_ideeas_web_design-01.svg">
+            <a href="http://www.ideeas.pl/">
+                <img class="author-logo" src="../images/ee_ideeas_web_design-01.svg">
+          </a>
         </div>
     </footer>
   
@@ -114,6 +119,6 @@
     <script src="./js/map.js"></script> 
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNRpPMKijs6WNL0Buh8STQXwBSAtNuVMU&callback=initMap"async defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
