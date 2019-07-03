@@ -240,7 +240,7 @@ function initMap() {
     // Create a map object, and include the MapTypeId to add
     // to the map type control.
 
-    var myLatLng = {lat: 48.390189, lng: 10.027451};
+    var myLatLng = {lat: 48.405651, lng: 10.036453};
     
     var contentString = '<p>CP-AUTO <br> Max-Eyth-Straße 39G <br> 89231 Neu-Ulm<p>';
 
